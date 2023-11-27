@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
 
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("/public/fonts/SourceSansPro-Regular.otf");
+}
+
 #root {
   max-width: 100%;
+  font-family: "SourceSansPro";
 }
 
 *{
   margin: 0;
   padding: 0;
   text-decoration: none;
+
 }
 
 
