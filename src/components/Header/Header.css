@@ -1,0 +1,96 @@
+/* Header.css */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #DCE4F2;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .logoName h2 {
+    margin: 0;
+  }
+  
+  .menu-toggle {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .active {
+    border-bottom: 2px solid #35848C;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+      font-size: 18px;
+    }
+  
+    .menu-toggle {
+      display: flex;
+      flex-direction: column;
+      align-items:  center;
+    }
+  
+    .navbar {
+      display: none;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: #A66249;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      text-align: center;
+      margin: auto;  
+      padding: 20px;
+    }
+
+    .nav-list li {
+        padding-bottom: 20px;
+    }
+  
+    .nav-list li {
+      margin: 0;
+    }
+  
+    .navbar.open {
+      display: flex;
+    }
+  }
+  
