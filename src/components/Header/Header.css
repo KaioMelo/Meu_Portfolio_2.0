@@ -71,22 +71,23 @@ header {
       position: absolute;
       top: 70px;
       left: 0;
-      background-color: #A66249;
+      background-color: #0D0D0D;
     }
   
     .nav-list {
       flex-direction: column;
       text-align: center;
       margin: auto;  
-      padding: 20px;
+      padding-top: 20px;
     }
 
     .nav-list li {
         padding-bottom: 20px;
+        margin: 0;
     }
   
-    .nav-list li {
-      margin: 0;
+    .nav-list a {
+      color: white;
     }
   
     .navbar.open {

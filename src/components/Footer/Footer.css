@@ -1,0 +1,49 @@
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  padding: 20px;
+  background-color: #0D0D0D;
+  color: #fff;
+  text-align: justify;
+}
+
+.quem-sou,
+.redes-sociais,
+.linha-container,
+.criador {
+  padding: 10px;
+}
+
+.icone-rede-social {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.linha-container {
+  grid-column: span 2;
+}
+
+.linha {
+  border-top: 1px solid #fff;
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .rodape {
+    grid-template-columns: 1fr;
+  }
+
+  .quem-sou,
+  .redes-sociais,
+  .linha-container,
+  .criador {
+    margin: 0;
+  }
+
+  .linha-container {
+    grid-column: span 1;
+  }
+}
