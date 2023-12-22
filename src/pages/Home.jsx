@@ -1,11 +1,14 @@
+import './Home.css'
+
 function Home(){
     return(
-        <section className="">
-            <h1>Olá, Meu nome Kaio Melo </h1>
-            <p>Desenvolvedor Back-end</p>
-            <div>
-                <button>Diga Olá</button>
-                <button>Donwload CV</button>
+        <section className="home">
+            <h1 className="titulo-principal">Olá,</h1>
+            <h1 className="titulo-principal">Meu nome Kaio Melo </h1>  
+            <p className='sub-titulo'>Desenvolvedor Back-end</p> 
+            <div className='box-botoes'>
+                <button id='btn-ola'>Diga Olá</button>
+                <button id='btn-donwload'>Donwload CV</button>
             </div>
         </section>
     )

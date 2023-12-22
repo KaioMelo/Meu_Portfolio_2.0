@@ -1,0 +1,42 @@
+.home{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.titulo-principal{
+    font-size: 80px;
+    margin: auto;
+}
+
+.sub-titulo{
+    font-size: 32px;
+    color: #01C5E3;
+}
+
+
+.box-botoes > button{
+    font-size: 20px;
+    margin: 20px 20px 0px 0px;
+    border-radius: 8px;
+    appearance: none;
+    cursor: pointer;
+}
+
+#btn-ola{
+    background-color: #49B8C8;
+    color: white;
+    width: 140px;
+    height: 50px;
+}
+
+#btn-donwload{
+    background-color: transparent;
+    border: 1px solid #01C5E3;
+    color: #01C5E3;
+    width: 250px;
+    height: 50px;
+}
+

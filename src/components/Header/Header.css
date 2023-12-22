@@ -47,6 +47,7 @@ header {
     color: white;
     font-weight: bold;
     font-size: 14px;
+    text-transform: uppercase;
   }
   
   .active {
