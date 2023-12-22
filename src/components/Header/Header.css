@@ -4,13 +4,13 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #DCE4F2;
+    background-color: #242323;
     color: white;
-    font-size: 24px;
   }
   
   .logoName h2 {
     margin: 0;
+    font-size: 20px;
   }
   
   .menu-toggle {
@@ -44,14 +44,22 @@ header {
   
   .nav-list a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
+    font-size: 14px;
   }
   
   .active {
     border-bottom: 2px solid #35848C;
   }
-  
+
+  .icone-rede-social > img{
+    margin-right: 10px;
+    font-size: 20px;
+    width: 24px;
+    height: auto;
+  }
+
   @media screen and (max-width: 768px) {
     header {
       flex-direction: row;
@@ -93,5 +101,6 @@ header {
     .navbar.open {
       display: flex;
     }
+
   }
   

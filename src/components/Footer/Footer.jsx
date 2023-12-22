@@ -1,4 +1,8 @@
 import "./Footer.css";
+import discord from '../../assets/img/discord.svg'
+import whatsapp from '../../assets/img/whatsapp.svg'
+import linkedin from '../../assets/img/linkedin.svg'
+import github from '../../assets/img/github.svg'
 
 function FooterBar() {
   return (
@@ -13,18 +17,18 @@ function FooterBar() {
         </p>
       </div>
       <div className="redes-sociais">
-        <h2>Social</h2>
+        <h2>Redes Sociais</h2>
         <a href="#" className="icone-rede-social">
-          <img src="icone1.png" alt="Ícone 1" />
+          <img src={linkedin} alt="Ícone 1" />
         </a>
         <a href="#" className="icone-rede-social">
-          <img src="icone2.png" alt="Ícone 2" />
+          <img src={discord} alt="Ícone 2" />
         </a>
         <a href="#" className="icone-rede-social">
-          <img src="icone3.png" alt="Ícone 3" />
+          <img src={whatsapp} alt="Ícone 3" />
         </a>
         <a href="#" className="icone-rede-social">
-          <img src="icone4.png" alt="Ícone 4" />
+          <img src={github} alt="Ícone 4" />
         </a>
       </div>
       <div className="linha-container">
