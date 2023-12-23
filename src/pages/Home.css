@@ -1,12 +1,13 @@
 .home{
     width: 80%;
-    height: auto;
+    height: 500px;
     margin: auto;
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding-top: 130px;
+    padding-bottom: 60px;
 }
 
 .titulo-principal{
+    font-family: 'Roboto-Bold';
     font-size: 80px;
     margin: auto;
 }
@@ -19,7 +20,7 @@
 
 .box-botoes > button{
     font-size: 20px;
-    margin: 20px 20px 0px 0px;
+    margin: 40px 20px 0px 0px;
     border-radius: 8px;
     appearance: none;
     cursor: pointer;
@@ -40,3 +41,27 @@
     height: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .titulo-principal{
+        font-size: 40px;
+        margin: auto;
+    }
+    
+    .sub-titulo{
+        font-size: 24px;
+        color: #01C5E3;
+    }
+
+    .box-botoes {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #btn-ola{
+        background-color: #49B8C8;
+        color: white;
+        width: 250px;
+        height: 50px;
+    }
+    
+}
