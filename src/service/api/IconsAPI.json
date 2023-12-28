@@ -1,0 +1,30 @@
+[
+    {
+      "iconUrl": "https://icons8.com.br/icon/13679/logo-java-coffee-cup",
+      "nome": "Java"
+    },
+    {
+      "iconUrl": "https://icons8.com.br/icon/90519/logotipo-da-primavera",
+      "nome": "Spring Boot"
+    },
+    {
+      "iconUrl": "https://icons8.com.br/icon/UFXRpPFebwa2/logo-mysql",
+      "nome": "MySQL"
+    },
+    {
+      "iconUrl": "https://icons8.com.br/icon/38561/postgreesql",
+      "nome": "PostgreSQL"
+    },
+    {
+      "iconUrl": "https://icons8.com.br/icon/20906/git",
+      "nome": "Git"
+    },
+    {
+      "iconUrl": "https://icons8.com.br/icon/61466/intellij-idea",
+      "nome": "Intellij"
+    },
+    {
+      "iconUrl": "https://icons8.com.br/icon/QFcVqyh6lBh6/tomcat",
+      "nome": "Tomcat"
+    }
+  ]

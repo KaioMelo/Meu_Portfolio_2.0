@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("/public/fonts/SourceSansPro-Regular.otf");
+  src: url("/public/fonts/Roboto-Regular.otf");
 }
 
 #root {
   max-width: 100%;
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
 }
 
 *{

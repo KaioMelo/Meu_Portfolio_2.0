@@ -3,8 +3,7 @@ import "./Home.css";
 function Home() {
   return (
     <section className="home">
-      <h1 className="titulo-principal">Olá,</h1>
-      <h1 className="titulo-principal">Meu nome Kaio Melo </h1>
+      <h1 className="titulo-principal">Olá, Meu nome Kaio Melo</h1>
       <h2 className="sub-titulo">Desenvolvedor Back-end</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, eius
