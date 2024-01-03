@@ -27,39 +27,6 @@
   width: 50%;
 }
 
-.habilidades {
-  margin: auto;
-  padding: 5px 5px 10px 5px;
-  width: 80%;
-}
-
-.subtitulo-habilidade{
-  font-size: 32px;
-  text-align: center;
-  padding: 20px 0px 20px 0px;
-}
-
-.box-icons{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.box-icons > .icon {
-  padding: 10px;
-}
-
-.icon{
-  text-align: center;
-  font-size: 60px;
-}
-
-.descricao{
-  font-size: 22px;
-}
-
 @media screen and (max-width: 768px) {
   .box-sobremim {
     display: flex;
@@ -73,19 +40,5 @@
 
   .resumo{
     width: 100%;
-  }
-
-  .habilidades {
-    width: 50%;
-    
-  }
-
-  .icon{
-    text-align: center;
-    font-size: 40px;
-  }
-
-  .descricao{
-    font-size: 18px;
   }
 }

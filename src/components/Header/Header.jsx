@@ -1,9 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import discord from '../../assets/img/discord.svg'
-import whatsapp from '../../assets/img/whatsapp.svg'
-import linkedin from '../../assets/img/linkedin.svg'
-import github from '../../assets/img/github.svg'
+import { FaGithub, FaDiscord, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 import './Header.css';
 
 function NavBar() {
@@ -44,16 +41,16 @@ function NavBar() {
       </nav>
       <div className="redes-sociais">
         <a href="#" className="icone-rede-social">
-          <img src={linkedin} alt="Ícone 1" />
+          <span><FaGithub/></span>
         </a>
         <a href="#" className="icone-rede-social">
-          <img src={discord} alt="Ícone 2" />
+          <span><FaLinkedin/></span>
         </a>
         <a href="#" className="icone-rede-social">
-          <img src={whatsapp} alt="Ícone 3" />
+          <span><FaDiscord/></span>
         </a>
         <a href="#" className="icone-rede-social">
-          <img src={github} alt="Ícone 4" />
+          <span><FaWhatsapp/></span>
         </a>
       </div>
       <div className="menu-toggle" id="mobile-menu" onClick={toggleMenu}>

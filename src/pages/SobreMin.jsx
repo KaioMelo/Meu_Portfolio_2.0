@@ -29,59 +29,6 @@ function SobreMin() {
           </div>
         </div>
       </div>
-      <div className="habilidades">
-          <h3 className="subtitulo-habilidade">Habilidades</h3>
-          <div className="box-icons">
-            <div className="icon">
-              <i className="devicon-java-plain"></i>
-              <div className="descricao">
-                <p>Java</p>
-              </div>
-            </div>
-            <div className="icon">
-              <i className="devicon-spring-plain"></i>
-              <div className="descricao">
-                <p>Spring Boot</p>
-              </div>
-            </div>
-            <div className="icon">
-              <i className="devicon-mysql-plain"></i>
-              <div className="descricao">
-                <p>MySQL</p>
-              </div>
-            </div>
-            <div className="icon">
-              <i className="devicon-postgresql-plain"></i>
-              <div className="descricao">
-                <p>PostegreSQL</p>
-              </div>
-            </div>
-            <div className="icon">
-              <i className="devicon-git-plain"></i>
-              <div className="descricao">
-                <p>Git</p>
-              </div>
-            </div>
-            <div className="icon">
-              <i className="devicon-intellij-plain"></i>
-              <div className="descricao">
-                <p>Intellij</p>
-              </div>
-            </div>
-            <div className="icon">
-              <i className="devicon-linux-plain"></i>
-              <div className="descricao">
-                <p>Linux</p>
-              </div>
-            </div>
-            <div className="icon">
-              <i className="devicon-tomcat-line"></i>
-              <div className="descricao">
-                <p>Tomcat</p>
-              </div>
-            </div>
-          </div>
-        </div>
     </section>
   );
 }

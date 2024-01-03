@@ -2,13 +2,12 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 400vh;
   background-color: #171717;
   color: white;
 }
 
 @media (max-width: 768px) {
-    .container {
-      max-width: 100%; /* Largura máxima para telas menores */
-    }
+  .container {
+    max-width: 100%; /* Largura máxima para telas menores */
   }
+}
