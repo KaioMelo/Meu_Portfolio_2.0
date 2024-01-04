@@ -27,6 +27,13 @@
   width: 50%;
 }
 
+.resumo p{
+  color: #ffffffab;
+  padding: 30px 0px 20px 0px;
+  font-size: 18px;
+  text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
   .box-sobremim {
     display: flex;

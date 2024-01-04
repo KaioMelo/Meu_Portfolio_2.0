@@ -1,27 +1,24 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
 import "./Projetos.css";
 
-function Projetos() {
-  const [projects, setProjects] = useState([]);
+import imgProjeto from "../assets/img/projeto01.png";
 
-  useEffect(() => {
-    const apiUrl = "http://localhost:3001/api/projects";
-    axios
-      .get(apiUrl)
-      .then((response) => setProjects(response.data))
-      .catch((error) => console.error("Erro ao buscar projetos:", error));
-  }, []);
+function Projetos() {
   return (
-    <section className="container">
+    <section className="projetos">
       <h2 className="titulo">Projetos</h2>
-      <div className="projetos">
-        {projects.map((project) => (
-          <div className="cards" key={project.name}>
-            <h2>{project.name}</h2>
-            <p>{project.description}</p>
+      <div className="box-projetos">
+        <div className="card">
+          <img src={imgProjeto} alt="" />
+          <div className="descricao">
+            <h3>Gerenciamento de Veículos</h3>
+            <p>
+              Projeto em desenvolvimento utilizando JavaFX, MySQL, JavaDOC,
+              Maven, JUnit e boas práticas pqara gerenciamento de controle de
+              viaturas.
+            </p>
+            <button className="button-projeto"><a href="">Visitar Projeto</a></button>
           </div>
-        ))}
+        </div>
       </div>
     </section>
   );

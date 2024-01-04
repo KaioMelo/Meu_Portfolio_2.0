@@ -1,7 +1,6 @@
 .habilidades {
   text-align: center;
-  padding: 20px;
-  margin: 0 auto;
+  margin: 30px 0px 60px 0px;
 }
 
 .box-icons {
@@ -25,10 +24,9 @@
   overflow: hidden;
 }
 
-.box h3 {
+.box .titulo-box {
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .box .info {
@@ -52,16 +50,30 @@
 }
 
 .box:hover .info li{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .icon{
-  font-size: 32px;
+  font-size: 28px;
 }
 
 @media (max-width: 1220px) {
   .box-icons {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .box h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .box:hover .info li{
+    font-size: 20px;
+  }
+  
+  .icon{
+    font-size: 28px;
   }
 }
 
